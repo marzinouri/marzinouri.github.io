@@ -1,10 +1,42 @@
 ---
 ---
 
+@inproceedings{yu2024latentconceptbasedexplanationnlp,
+      abbr = {EMNLP 2024},
+      bibtex_show={true},
+      title={Latent Concept-based Explanation of NLP Models}, 
+      author={Xuemin Yu and Fahim Dalvi and Nadir Durrani and Marzia Nouri and Hassan Sajjad},
+      booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024)},
+      year={2024},
+      url={https://arxiv.org/abs/2404.12545},
+      archivePrefix={arXiv},
+      eprint={2404.12545},
+      primaryClass={cs.CL},
+      arxiv={2404.12545},
+      pdf = {2404.12545v2.pdf},
+      abstract = {Interpreting and understanding the predictions made by deep learning models poses a formidable challenge due to their inherently opaque nature. Many previous efforts aimed at explaining these predictions rely on input features, specifically, the words within NLP models. However, such explanations are often less informative due to the discrete nature of these words and their lack of contextual verbosity. To address this limitation, we introduce the Latent Concept Attribution method (LACOAT), which generates explanations for predictions based on latent concepts. Our foundational intuition is that a word can exhibit multiple facets, contingent upon the context in which it is used. Therefore, given a word in context, the latent space derived from our training process reflects a specific facet of that word. LACOAT functions by mapping the representations of salient input words into the training latent space, allowing it to provide latent context-based explanations of the prediction.}
+}
+
+@inproceedings{
+ghahroodi2024khayyam,
+abbr = {COLM 2024},
+bibtex_show={true},
+title={Khayyam Challenge (Persian{MMLU}): Is Your {LLM} Truly Wise to The Persian Language?},
+author={Omid Ghahroodi and Marzia Nouri* and Mohammad Vali Sanian* and Alireza Sahebi* and Doratossadat Dastgheib and Ehsaneddin Asgari and Mahdieh Soleymani Baghshah and Mohammad Hossein Rohban},
+booktitle={First Conference on Language Modeling},
+year={2024},
+url={https://openreview.net/forum?id=yIEyHP7AvH},
+pdf = {1499_Khayyam_Challenge_Persian.pdf},
+code = {https://github.com/raia-center/khayyam-challenge},
+abstract = {Evaluating Large Language Models (LLMs) is challenging due to their generative nature, necessitating precise evaluation methodologies. Additionally, non-English LLM evaluation lags behind English, resulting in the absence or weakness of LLMs for many languages. In response to this necessity, we introduce Khayyam Challenge (also known as PersianMMLU), a meticulously curated collection comprising 20,805 four-choice questions sourced from 38 diverse tasks extracted from Persian examinations, spanning a wide spectrum of subjects, complexities, and ages. The primary objective of the Khayyam Challenge is to facilitate the rigorous evaluation of LLMs that support the Persian language. Distinctive features of the Khayyam Challenge are (i) its comprehensive coverage of various topics, including literary comprehension, mathematics, sciences, logic, intelligence testing, etc aimed at assessing different facets of LLMs such as language comprehension, reasoning, and information retrieval across various educational stages, from lower primary school to upper secondary school (ii) its inclusion of rich metadata such as human response rates, difficulty levels, and descriptive answers (iii) its utilization of new data to avoid data contamination issues prevalent in existing frameworks (iv) its use of original, non-translated data tailored for Persian speakers, ensuring the framework is free from translation challenges and errors while encompassing cultural nuances (v) its inherent scalability for future data updates and evaluations without requiring special human effort. Previous works lacked an evaluation framework that combined all of these features into a single comprehensive benchmark. Furthermore, we evaluate a wide range of existing LLMs that support the Persian language, with statistical analyses and interpretations of their outputs. We believe that the Khayyam Challenge will improve advancements in LLMs for the Persian language by highlighting the existing limitations of current models, while also enhancing the precision and depth of evaluations on LLMs, even within the English language context.}
+}
+
 @inproceedings{nouri-etal-2023-language,
+    abbr = {AACL 2023},
+    bibtex_show={true},
     title = "The Language Model, Resources, and Computational Pipelines for the Under-Resourced {I}ranian {A}zerbaijani",
-    author = "Nouri, Marzia  and
-      Amani, Mahsa  and
+    author = "Nouri*, Marzia  and
+      Amani*, Mahsa  and
       Zohrabi, Reihaneh  and
       Asgari, Ehsaneddin",
     editor = "Park, Jong C.  and
@@ -22,106 +54,20 @@
     url = "https://aclanthology.org/2023.ijcnlp-short.19",
     doi = "10.18653/v1/2023.ijcnlp-short.19",
     pages = "166--174",
+    pdf = {2023.ijcnlp-short.19.pdf},
+    code = {https://github.com/language-ml/iranian-azerbaijani-nlp},
+    abstract = {Iranian Azerbaijani is a dialect of the Azerbaijani language spoken by more than 16% of the population in Iran (>14 million). Unfortunately, a lack of computational resources is one of the factors that puts this language and its rich culture at risk of extinction. This work aims to create fundamental natural language processing (NLP) resources and pipelines for the processing and analysis of Iranian Azerbaijani introducing standard datasets and starter models for various NLP tasks such as language modeling, text classification, part-of-speech (POS) tagging, and machine translation. The proposed resources have been curated and preprocessed to facilitate the development of NLP models for Iranian Azerbaijani and provide a strong baseline for further research and development. This study is an example of bridging the gap in NLP for low-resource languages and promoting the advancement of language technologies in underrepresented languages. To the best of our knowledge, for the first time, this paper presents major infrastructures for the processing and analysis of Iranian Azerbaijani, with the ultimate goal of improving communication and information access for millions of individuals. Furthermore, our translation model’s online demo is accessible at https://azeri.parsi.ai/.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{bahmani2024linguistic,
+  title={Linguistic Resources and Transformer-based Models for the Machine Translations between Luri and Yazdi Dialects versus Standard Persian},
+  author={Bahmani, Zahra and Mirbeygi, Mohaddeseh and Hashemi Dijujin, Negin and Nouri, Marzia and Amani, Mahsa and Asgari, Ehsan and Soleymani Baghshah, Mahdieh and Beigy, Hamid and Movaghar, Ali and Moghimi, Afzal},
+  journal={Language and Linguistics},
+  volume={19},
+  number={37},
+  pages={153--172},
+  year={2022},
+  publisher={Linguistics Society of Iran},
+  code = {},
+  abstract = {Despite recent advances in developing language technologies for the standard Persian dialect, the official Iranian language, a large number of Iranian language variations remained computationally unexplored. Iranian languages, e.g., Kurdi, Azeri, and many Persian dialects are examples of low-resource language distinctions lacking significant linguistic resources such as machine-readable lexicons or part-of-speech (POS) taggers. Efforts in developing language technologies for such languages can significantly contribute to language survival in the digital era and promote cultural diversity. To the best of our knowledge, for the first time, we created linguistic resources for the Luri and the Yazdi dialects by introducing the first parallel corpora between these language variations and the modern Persian language. In this study, we train neural encoder-decoders (1) recurrent sequence-to-sequence and (2) transformer-based machine translation models and evaluate the trained model using BLEU score on an unseen test dataset.Availability of datasets and models: Datasets are available here at https://github.com/language-ml/dataset_yazdi_luri.git}
 }

@@ -1,9 +1,9 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"EMNLP 2024":
+  url: https://aclanthology.org/venues/emnlp/
 
-"PhysRev":
-  url: https://journals.aps.org/
+"COLM 2024":
+  url: https://colmweb.org/index.html
 
-"Vision":
-  color: "#009f36"
+
+"AACL 2023":
+  url: https://aclanthology.org/venues/aacl/
