@@ -24,4 +24,4 @@ I am a Research Assistant at [Qatar Computing Research Institute (QCRI)](https:/
 
 My research contributions have been published at [EMNLP](https://2024.emnlp.org/), [COLM](https://colmweb.org/), and [AACL](https://aclanthology.org/events/aacl-2023), focusing on interpretability of NLP models, LLM evaluation for Persian, and language technologies for under-resourced languages.
 
-For more details, you can download my CV from the [CV page](https://marzinouri.github.io/cv/) and explore my publications on the [publications page](https://marzinouri.github.io/publications/).
+For  more details, you can download my CV from the [CV page](https://marzinouri.github.io/cv/) and explore my publications on the [publications page](https://marzinouri.github.io/publications/).
