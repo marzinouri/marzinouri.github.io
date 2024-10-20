@@ -23,3 +23,21 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+.section-title {
+  background-color: #FF5890; /* Choose your desired background color */
+  color: white;
+  padding: 5px;
+  font-size: 1.1em;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 5px; /* Optional: for rounded corners */
+  font-weight: bold;
+}
+
+.section-title h2 {
+  margin: 0;
+}
+.hide-title .page-title {
+  display: none;
+}
+
