@@ -1,20 +1,28 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: 
 nav: true
 nav_order: 2
+class: hide-title
 ---
-<p style="font-style: italic;">* Denotes Equal Contribution</p>
-<!-- _pages/publications.md -->
+<p>The publications are grouped into two sections: conference and journal papers.
+<br> * Denotes Equal Contribution</p>
 
-<!-- Bibsearch Feature -->
-
-<!-- {% include bib_search.liquid %} -->
+<!-- Main Publications Section -->
+<div class="section-title">
+  Conference Publications
+</div>
 
 <div class="publications">
+  {% bibliography --group_by none --query @*[keyword=conference]* %}
+</div>
 
-{% bibliography %}
+<div class="section-title">
+  Journal Publications
+</div>
 
+<div class="publications">
+   {% bibliography --group_by none --query @*[keyword=journal]* %}
 </div>
