@@ -18,10 +18,10 @@ I am Marzia Nouri, a passionate researcher and data scientist with a focus on Na
 
 I hold a Bachelor of Science in Computer Engineering from [Isfahan University of Technology](https://english.iut.ac.ir/), with a thesis on question-answering systems using machine learning.
 
-My research interests include **NLP**, **LLMs**, **interpretability**, **responsible AI**, **low-resource language technologies**, and **data mining**. I am also curious about exploring multimodal learning.
+My research interests include **NLP**, **LLMs**, **interpretability**, **multilinguality**, and **low-resource language technologies**. I am also curious about exploring multimodal learning.
 
-I am a Research Assistant at [Qatar Computing Research Institute (QCRI)](https://www.hbku.edu.qa/en/qcri), where I organize and structure data to improve LLM comprehension. At [HyperMatrix Lab](https://hypermatrix.cs.dal.ca/), [Dalhousie University](https://www.dal.ca/), my work focuses on the interpretability and safety of NLP models. In parallel, I am working as a Data Scientist at [TapSage](https://www.tapsage.com/), focusing on AI-driven solutions such as conversational AI, retrieval-augmented generation (RAG) systems, and multi-agent frameworks. 
+I am working as an R&D Data Scientist at [Tapsell](https://tapsell.com/en/), focusing on AI-driven solutions such as multi-agent frameworks, conversational AI, and retrieval-augmented generation (RAG) systems. In parallel with my role at Tapsell, I contribute as a volunteer Research Assistant to two research groups. At [Qatar Computing Research Institute (QCRI)](https://www.hbku.edu.qa/en/qcri), I organize and structure data to improve LLM comprehension. At [HyperMatrix Lab](https://hypermatrix.cs.dal.ca/), [Dalhousie University](https://www.dal.ca/), my work focuses on the interpretability of NLP models. 
 
-My research contributions have been published at **[EMNLP](https://2024.emnlp.org/)**, **[COLM](https://colmweb.org/)**, and **[AACL](https://aclanthology.org/events/aacl-2023)**, focusing on interpretability of NLP models, LLM evaluation for Persian, and language technologies for under-resourced languages.
+My research contributions have been published at **[EMNLP](https://2024.emnlp.org/)**, **[COLM](https://colmweb.org/)**, and **[AACL](https://aclanthology.org/events/aacl-2023)**, focusing on interpretability of NLP models, LLM evaluation for Persian, and language technologies for under-resourced Iranian languages.
 
 For more details, you can view my [CV](https://marzinouri.github.io/assets/pdf/MarziaNouri-CV.pdf) and explore my [Publications](https://marzinouri.github.io/publications/).
