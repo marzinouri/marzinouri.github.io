@@ -20,7 +20,7 @@ I hold a Bachelor of Science in Computer Engineering from [Isfahan University of
 
 My research interests include **NLP**, **LLMs**, **interpretability**, **multilinguality**, and **low-resource language technologies**. I am also curious about exploring multimodal learning.
 
-I am working as an R&D Data Scientist at [Tapsell](https://tapsell.com/en/), focusing on AI-driven solutions such as multi-agent frameworks, conversational AI, and retrieval-augmented generation (RAG) systems. In parallel with my role at Tapsell, I contribute as a volunteer Research Assistant to two research groups. At [Qatar Computing Research Institute (QCRI)](https://www.hbku.edu.qa/en/qcri), I organize and structure data to improve LLM comprehension. At [HyperMatrix Lab](https://hypermatrix.cs.dal.ca/), [Dalhousie University](https://www.dal.ca/), my work focuses on the interpretability of NLP models. 
+I am working as an R&D Data Scientist at [Tapsell](https://tapsell.com/en/), focusing on AI-driven solutions such as multi-agent frameworks, conversational AI, and retrieval-augmented generation (RAG) systems. Previously, I contributed as a volunteer Research Assistant to research groups at [Qatar Computing Research Institute (QCRI)](https://www.hbku.edu.qa/en/qcri) and [HyperMatrix Lab](https://hypermatrix.cs.dal.ca/), [Dalhousie University](https://www.dal.ca/), where I focused on data structuring for LLMs and interpretability of NLP models.
 
 My research contributions have been published at **[EMNLP](https://2024.emnlp.org/)**, **[COLM](https://colmweb.org/)**, and **[AACL](https://aclanthology.org/events/aacl-2023)**, focusing on interpretability of NLP models, LLM evaluation for Persian, and language technologies for under-resourced Iranian languages.
 
